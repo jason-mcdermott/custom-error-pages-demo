@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Http Error";
+    var httpStatusCode = ViewData["HttpStatusCode"];
+}
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="">
+        <h2 class="text-center">@httpStatusCode Error</h2>
+        <h5 class="text-center">An error occurred while processing your request.</h5>
+    </div>
+</div>
+

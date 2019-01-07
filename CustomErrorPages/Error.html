@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Critical Error</title>
+    <meta charset="utf-8" />
+    <style>
+        /*
+            -------------------------------------
+            Bootstrap styling
+            -------------------------------------
+        */
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            line-height: 1.42857143;
+            color: #333333;
+            background-color: #fff;
+        }
+
+        .container-fluid {
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .row {
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        .h1,
+        .h2,
+        .h3,
+        .h4,
+        .h5,
+        .h6 {
+            font-family: inherit;
+            font-weight: 500;
+            line-height: 1.1;
+            color: inherit;
+        }
+
+        h3 {
+            font-size: 24px;
+        }
+
+        .h1, .h2, .h3, h1, h2, h3 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin: 0 0 10px;
+        }
+        /*
+            -------------------------------------
+            Custom styling
+            -------------------------------------
+        */
+        body {
+            margin: 0;
+        }
+
+        .error-row {
+            background-color: #eee;
+            padding: 50px 50px;
+        }
+
+            .error-row h3 {
+                margin-top: 0 !important;
+            }
+
+        .top-spacer {
+            height: 35px;
+        }
+
+        @media (min-width: 768px) {
+            .error-row {
+                padding: 75px 175px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 top-spacer">
+            </div>
+        </div>
+        <div class="row error-row">
+            <div class="col-md-12 text-center">
+                <div class="error-message">
+                    <h3>An unknown error occurred</h3>
+                    <p>
+                        There was a problem with the page you were trying to access. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
